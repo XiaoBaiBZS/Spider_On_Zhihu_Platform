@@ -2,7 +2,7 @@
 Name: Spider_On_Zhihu_Platform
 Author: ZhanshuoBai
 Date: 2024-11-15
-Version: 1.0.1
+Version: Release_1.0.1
 Description:
     You can import this module to get data on zhihu platform.
     What you can get?
@@ -283,7 +283,7 @@ class E_Mail:
     smtp_port = 587
     sender_email = '1298589907@qq.com'
 
-    password = 'ejbyhafjeszoicdg'
+    password = 'Please write your owns.'
     def __init__(self,subject, body, msg_to):
         self.subject = subject
         self.body = body
