@@ -1,8 +1,8 @@
 """
 Name: Spider_On_Zhihu_Platform
 Author: ZhanshuoBai
-Date: 2024-11-15
-Version: Release_1.0.1
+Date: 2024-11-19
+Version: Release_1.0.2
 Description:
     You can import this module to get data on zhihu platform.
     What you can get?
