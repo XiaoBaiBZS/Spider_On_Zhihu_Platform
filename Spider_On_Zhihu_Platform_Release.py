@@ -474,7 +474,7 @@ class Zhihu_Spider_Tool:
                     page_source = file.read()
                 soup = BeautifulSoup(page_source, 'lxml')  # 创建 beautifulsoup 对象
                 item_list = soup.find_all('div', class_='RichContent RichContent--unescapable')
-self.Zhihu_Spider_Tool_Info.spider_methods.save_info.data.search_list_page_item_content_list=[]
+                  self.Zhihu_Spider_Tool_Info.spider_methods.save_info.data.search_list_page_item_content_list=[]
                 for item in item_list:
                     content = item.find('div', class_="css-376mun").find_all('p')
                     content_data = ""
